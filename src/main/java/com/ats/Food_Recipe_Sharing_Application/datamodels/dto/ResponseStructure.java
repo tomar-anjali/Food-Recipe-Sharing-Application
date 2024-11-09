@@ -1,4 +1,4 @@
 package com.ats.Food_Recipe_Sharing_Application.datamodels.dto;
 
-public class ResponseStructure {
+public class ResponseStructure<C> {
 }
