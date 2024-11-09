@@ -6,4 +6,5 @@ import org.springframework.http.ResponseEntity;
 
 public interface RatingServiceInterface {
     ResponseEntity<ResponseStructure<Rating>> saveRating(RatingDto ratingDto );
+
 }
