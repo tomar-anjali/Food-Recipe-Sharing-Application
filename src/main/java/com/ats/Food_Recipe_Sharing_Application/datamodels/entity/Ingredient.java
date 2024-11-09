@@ -1,5 +1,6 @@
 package com.ats.Food_Recipe_Sharing_Application.datamodels.entity;
 
+<<<<<<< HEAD:src/main/java/com/ats/Food_Recipe_Sharing_Application/datamodels/entity/Ingredients.java
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -16,4 +17,7 @@ public class Ingredients {
     private int unit;
     private double price;
 
+=======
+public class Ingredient {
+>>>>>>> fe005bdca1c65f232e51459882fce96a97e8d472:src/main/java/com/ats/Food_Recipe_Sharing_Application/datamodels/entity/Ingredient.java
 }
