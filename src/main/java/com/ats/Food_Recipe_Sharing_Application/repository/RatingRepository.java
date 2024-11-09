@@ -1,4 +1,6 @@
 package com.ats.Food_Recipe_Sharing_Application.repository;
 
-public interface RatingRepository {
+import com.ats.Food_Recipe_Sharing_Application.datamodels.entity.Rating;
+
+public interface RatingRepository  extends JpaRepository<Rating, Integer>{
 }
